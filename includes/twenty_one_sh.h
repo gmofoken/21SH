@@ -6,7 +6,7 @@
 /*   By: gmofoken <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2016/08/07 09:51:27 by gmofoken          #+#    #+#             */
-/*   Updated: 2016/08/28 10:33:47 by gmofoken         ###   ########.fr       */
+/*   Updated: 2016/09/07 13:05:46 by gmofoken         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -40,7 +40,7 @@ void			ft_run_args(t_data *data);
 int				ft_s_args(t_data *data);
 int				ft_cd(t_data *data);
 void			ft_history(t_data *data);
-int			ft_len(char **args);
+int				ft_len(char **args);
 void			ft_setenv(char *arg, char **env);
 
 #endif

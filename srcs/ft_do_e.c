@@ -6,11 +6,11 @@
 /*   By: gmofoken <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2016/08/22 08:21:17 by gmofoken          #+#    #+#             */
-/*   Updated: 2016/09/03 09:29:03 by gmofoken         ###   ########.fr       */
+/*   Updated: 2016/09/07 15:54:08 by gmofoken         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "mini_shell.h"
+#include "twenty_one_sh.h"
 
 int				ft_len(char **args)
 {
