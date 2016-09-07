@@ -40,5 +40,7 @@ void			ft_run_args(t_data *data);
 int				ft_s_args(t_data *data);
 int				ft_cd(t_data *data);
 void			ft_history(t_data *data);
+int			ft_len(char **args);
+void			ft_setenv(char *arg, char **env);
 
 #endif

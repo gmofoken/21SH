@@ -7,11 +7,15 @@ INCLUDE = -I includes/
 
 FLAGS = -Wall -Werror -Wextra
 
+LFLAG = -L./libft/ -lft
+
 all:
-	@gcc $(FLAGS) $(SRCS) $(INCLUDE)
+	@make -C libft/
+	@gcc $(FLAGS) $(SRCS) $(INCLUDE) $(LFLAGS)
 	@mv a.out $(NAME)
 
 clean:
 	@rm $(NAME)
 
 re: clean all
+

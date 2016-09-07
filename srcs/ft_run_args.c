@@ -17,10 +17,10 @@ static char	*find(char *name)
 	char	*path;
 	char	*tmp1;
 	char	**folders;
-	char	**tmp2;
+	//char	**tmp2;
 
 	folders = ft_strsplit(getenv("PATH"), ':');
-	tmp2 = folders;
+	//tmp2 = folders;
 	while (*folders != '\0')
 	{
 		tmp1 = ft_strjoin(*folders, "/");
