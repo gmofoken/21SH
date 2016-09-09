@@ -10,7 +10,7 @@
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "mini_shell.h"
+#include "twenty_one_sh.h"
 
 void		ft_unsetenv(char **env, char *str)
 {

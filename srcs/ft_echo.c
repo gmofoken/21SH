@@ -10,7 +10,7 @@
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "mini_shell.h"
+#include "twenty_one_sh.h"
 
 static void	ft_cap_e(char **args)
 {

@@ -37,10 +37,16 @@ void			ft_run_s(t_data *data);
 void			ft_free(t_data *data);
 char			*get_line(void);
 void			ft_run_args(t_data *data);
-int				ft_s_args(t_data *data);
-int				ft_cd(t_data *data);
+int			ft_s_args(t_data *data);
+int			ft_cd(t_data *data);
 void			ft_history(t_data *data);
-int				ft_len(char **args);
 void			ft_setenv(char *arg, char **env);
+void			ft_echo(char **args);
+char			**ft_echo_quo(char **args, int *e);
+void			ft_putecho(char *s);
+int			ft_do_e(char *arg);
+int			ft_len(char **args);
+void			ft_2d_free(char **arg);
+
 
 #endif

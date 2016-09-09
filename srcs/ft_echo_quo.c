@@ -10,7 +10,7 @@
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "mini_shell.h"
+#include "twenty_one_sh.h"
 
 static int		ft_even_odd(char **args)
 {
@@ -85,7 +85,7 @@ static char		**ft_new_args(char **args)
 	while (b != 0)
 	{
 		ft_putstr("dquote> ");
-		line = ft_strtrim(ft_get_line());
+		line = ft_strtrim(get_line());
 		new_args[i - 1] = ft_strjoin(new_args[i - 1], "\n");
 		new_args[i++] = line;
 		j = 0;

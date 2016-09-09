@@ -22,7 +22,7 @@ int		ft_s_args(t_data *data)
 	if (ft_strcmp(*data->args, "echo") == 0)
 	{
 		c = 1;
-		//ft_echo(data);
+		ft_echo(data->args);
 	}
 	return (c);
 }
