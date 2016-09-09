@@ -6,7 +6,7 @@
 /*   By: gmofoken <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2016/08/07 09:51:43 by gmofoken          #+#    #+#             */
-/*   Updated: 2016/08/07 16:51:15 by gmofoken         ###   ########.fr       */
+/*   Updated: 2016/09/09 12:03:03 by gmofoken         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -19,7 +19,7 @@ void	ft_run_s(t_data *data)
 	while (data->brk != 0)
 	{
 		ft_putstr("KG_SHELL$ ");
-		data->line = get_line();
+		data->line = ft_strtrim(get_line());
 		data->args = ft_strsplit(data->line, ';');
 		if (ft_strlen(data->line) > 0 && data->args[0] != NULL)
 		{
